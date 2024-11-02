@@ -1,5 +1,5 @@
 resource "null_resource" "fibonacci" {
   provisioner "local-exec" {
-    command = "python fibonacci.py"
+    command = "python3 fibonacci.py"
   }
 }
